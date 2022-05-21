@@ -1,0 +1,14 @@
+[package]
+default-run = "rust-demo"
+edition = "2021"
+name = "rust-demo"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+openssl = "0.10"
+openssl-sys = "0.9"
+rand = "0.8.3"
+socks = "0.3.4"
